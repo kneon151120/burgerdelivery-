@@ -1,0 +1,30 @@
+@media (max-width: 1400px) {
+  .wrapper__navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+}
+@media (max-width: 1200px) {
+  .wrapper__list {
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+
+  .wrapper__list-card {
+    width: 40%;
+    margin-bottom: 100px;
+  }
+
+}
+
+@media print {
+  .print {
+    display: flex;
+  }
+
+  .wrapper {
+    display: none;
+  }
+  
+}

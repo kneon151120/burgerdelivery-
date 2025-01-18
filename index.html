@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dBurger</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="wrapper__nav">
+            <div class="container wrapper__navbar">
+                <a class="logo" href="#!">
+                    <img src="images/logo.png" alt="">
+                    dBurger
+                </a>
+
+                <div class="wrapper__navbar-right">
+                    <button class="wrapper__navbar-btn">
+                        <img src="images/shop-icon.svg" alt="">
+                        <span class="warapper__navbar-count"></span>
+                    </button>
+                    <!-- BASKET CHEKLIST -->
+                    <div class="wrapper__navbar-basket">
+                        <div class="wrapper__navbar-top">
+                            Корзина
+                            <button class="wrapper__navbar-close"></button>
+                        </div>
+                        <div class="wrapper__navbar-checklist">
+
+                            
+                        </div>
+                        <div class="wrapper__navbar-bottom">
+                            Заказать
+                            <!-- total price  -->
+                            <span class="wrapper__navbar-totalprice">0</span>
+                            <!-- ------------ -->
+                        </div>
+                    </div>
+                    <!-- --------------- -->
+                </div>
+            </div>
+        </nav>
+  
+        <section class="container wrapper__view">
+            <img src="images/big-burger.png" alt="">
+        </section>
+        <section class="container wrapper__list">
+            <div class="wrapper__list-card" id="crazy">
+                <p class="wrapper__list-count"></p>
+                <img class="wrapper__list-image" src="images/products/burger-1.png" alt="">
+                <h3 class="wrapper__list-title">Crazy</h3>
+                <div class="wrapper__list-sub">
+                    <p class="wrapper__list-text">31 000 сум</p>
+                    <button class="wrapper__list-btn"><img src="images/sell-icon.svg" alt=""></button>
+                </div>
+            </div>
+            <div class="wrapper__list-card" id="light">
+                <p class="wrapper__list-count"></p>
+                <img class="wrapper__list-image" src="images/products/burger-2.png" alt="">
+                <h3 class="wrapper__list-title">Light</h3>
+                <div class="wrapper__list-sub">
+                    <p class="wrapper__list-text">26 000 сум</p>
+                    <button class="wrapper__list-btn"><img src="images/sell-icon.svg" alt=""></button>
+                </div>
+            </div>
+            <div class="wrapper__list-card" id="cheeseburger">
+                <p class="wrapper__list-count"></p>
+                <img class="wrapper__list-image" src="images/products/burger-3.png" alt="">
+                <h3 class="wrapper__list-title">CheeseBurger</h3>
+                <div class="wrapper__list-sub">
+                    <p class="wrapper__list-text">29 000 сум</p>
+                    <button class="wrapper__list-btn"><img src="images/sell-icon.svg" alt=""></button>
+                </div>
+            </div>
+            <div class="wrapper__list-card" id="dburger">
+                <p class="wrapper__list-count"></p>
+                <img class="wrapper__list-image" src="images/products/burger-4.png" alt="">
+                <h3 class="wrapper__list-title">dBurger</h3>
+                <div class="wrapper__list-sub">
+                    <p class="wrapper__list-text">24 000 сум</p>
+                    <button class="wrapper__list-btn"><img src="images/sell-icon.svg" alt=""></button>
+                </div>
+            </div>
+            
+        </section>
+    </div>
+    <div class="print">
+        <div class="print__header">
+            <img src="images/logo.png" alt="">
+            dBurger
+        </div>
+        <div class="print__body">
+            
+        </div>
+        <div class="print__footer">
+            
+        </div>
+    </div>
+    
+    <script src="script/app.js"></script>
+</body>
+
+</html>

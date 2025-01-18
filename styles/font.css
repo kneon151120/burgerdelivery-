@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'SairaStencilOne';
+    src: url(../fonts/SairaStencilOne-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/OpenSans-Bold.ttf);
+    font-weight: 700;
+}
