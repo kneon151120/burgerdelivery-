@@ -284,6 +284,7 @@ ol {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .wrapper__view>img {
@@ -341,6 +342,7 @@ ol {
 
 .wrapper__list-image {
     margin-top: -55px;
+    max-width: 100%;
 }
 
 .wrapper__list-title {
@@ -459,4 +461,32 @@ ol {
 .title {
     text-align: center;
     margin: 50px 0;
+}
+@media (max-width: 545px) {
+    .wrapper__list {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .wrapper__list-card {
+        width: 100%;
+        margin: 10px 0; 
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+    }
+    .wrapper__list-sub{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+@media (max-width: 440px){
+    .wrapper__navbar-basket,
+    .wrapper__navbar-checklist,
+    .wrapper__navbar-top,
+    .wrapper_navbar-bottom{
+        width: 250px;
+        
+    }
 }
